@@ -215,6 +215,20 @@ span.clear {
   font-size: 32px;
 }
 
+.site-heading {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 35%;
+  background-image: linear-gradient(180deg, white 45%, #d9e3ed 45%);
+  background-size: 100% 100%;
+  background-position: left;
+  text-align: left;
+  padding-right: 0.5em;
+  padding-left: 4.25em;
+  padding-bottom: 0.15em;
+  font-size: 32px;
+}
+
 .column3 {
   float: left;
   width: 50%;
