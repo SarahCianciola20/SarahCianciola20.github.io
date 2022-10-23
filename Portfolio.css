@@ -277,11 +277,11 @@ span.clear {
   padding: 15px; /* Some padding */
   border-radius: 3px; /* Rounded corners */
   font-size: 20px; /* Increase font size */
-  background-color: #fff; /* Add a dark-grey background on hover */
+  background-color: transparent; /* Add a dark-grey background on hover */
 }
 
 #myBtn:hover {
-  background-color: #fff; /* Add a dark-grey background on hover */
+  transform: scale(1.1);
 }
 
 .grow {
@@ -353,4 +353,50 @@ span.clear {
 .chapters {
   float: right;
   margin-right: 2em;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  padding: 40px;
+}
+
+.contactform {
+  padding-top: 5em;
+  padding-left: 25%;
+}
+
+.grow2 {
+  transition: all 0.2s ease-in-out;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.grow2:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+  color: #000;
+}
+
+div.gallery {
+  margin: 20px;
+  border: 2px solid #000;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 3px solid #000;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 200px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
