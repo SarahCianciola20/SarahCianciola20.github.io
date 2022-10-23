@@ -49,6 +49,14 @@ h4 {
   font-family: "Avenir", sans-serif;
   font-size: 15px;
 }
+
+h5 {
+  color: #000;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: normal;
+}
+
 @font-face {
   font-family: "Avenir Reg";
   src: url("AvenirLTStd-Book.otf/avenir_ff");
@@ -98,7 +106,7 @@ div {
 
 .footer {
   width: 100%;
-  height: 80px;
+  height: 120px;
   margin-top: 100px;
   margin-bottom: 40px;
   background-color: #d9e3ed;
@@ -155,7 +163,7 @@ div {
   min-width: 25%;
   max-width: 25%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  /* height: 300px; Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -182,11 +190,24 @@ div {
   padding-left: 0.15em;
 }
 
+.accent-indent-underline {
+  background-image: linear-gradient(180deg, white 50%, #d9e3ed 50%);
+  background-size: 100% 100%;
+  display: inline-block;
+  padding-right: 0.5em;
+  padding-left: 0.15em;
+  margin-left: 1.5em;
+}
+
 .parent {
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+.sub-parent {
+  padding-left: 2.5em;
 }
 
 span.clear {
@@ -240,4 +261,96 @@ span.clear {
   content: "";
   display: table;
   clear: both;
+}
+
+#myBtn {
+  font-family: "Courier New", Courier, monospace;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: #000; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 3px; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
+  background-color: #fff; /* Add a dark-grey background on hover */
+}
+
+#myBtn:hover {
+  background-color: #fff; /* Add a dark-grey background on hover */
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.dropbtn {
+  color: #000;
+  padding-top: 40px;
+  padding-right: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-right: 10em;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.chapters {
+  float: right;
+  margin-right: 2em;
 }

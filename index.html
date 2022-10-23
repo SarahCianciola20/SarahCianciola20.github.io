@@ -8,23 +8,38 @@
   </head>
 
   <div>
-    <div class="logo" style="width: 20%; float: left; height: 40px">
+    <div
+      class="logo"
+      style="width: 20%; float: left; height: 40px"
+      href="./index.html"
+    >
       <img
         src="./PortfolioAssets/Brand/Logo.png"
         alt="Home"
         style="width: 40%"
       />
     </div>
-
-    <div class="topnav" style="margin-left: 20%; height: 70px">
-      <div class="topnav-right">
-        <a style="margin-right: 20px">Projects</a>
-        <a>About</a>
+  </div>
+  <div style="width: 35%; float: right">
+    <div class="dropdown">
+      <button class="dropbtn">Projects</button>
+      <div class="dropdown-content">
+        <a href="#">Supercomputer Dashboard Researcher</a>
+        <a href="#">CVS Infotainment System</a>
+        <a href="#">Jobs for Interns</a>
       </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">About</button>
     </div>
   </div>
 
   <body>
+    <br />
+    <br />
+    <br />
+    <br />
     <br />
     <br />
     <br />
@@ -55,13 +70,19 @@
         margin-bottom: 5%;
       "
     >
+    <div class="grow">
       <h2>
-        <u>Projects</u>
+        <a href="#projectop" style="color: #000; text-decoration: none"
+          >Projects</a
+        >
+        <br />
+        </div>
+
         <img
           class="emailicon"
           src="./PortfolioAssets/About/Downarrow.png"
           alt="down arrow icon"
-          style="width: 15px; float: right"
+          style="padding-top: 10px; width: 15px; float: right"
         />
       </h2>
     </div>
@@ -70,74 +91,91 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
     <div class="parent">
       <div class="project-center">
+        <div id="projectop"></div>
         <table>
-          <tr>
-            <td style="width: 50%">
-              <img
-                class="casestudy1"
-                src="./PortfolioAssets/HomePage/Rosie.png"
-                alt="Rosie"
-                style="width: 90%"
-              />
-            </td>
-
-            <td style="width: 50%">
-              <div class="casestudyheading">
-                <h1>
-                  <u>Rosie Supercomputer Dashboard Researcher</u>
-                  <br />
-                  <br />
-                  Interactive dashboard for technical and non-technical students
-                </h1>
-
-                <h2>UX Practicum - Fall 2022</h2>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td style="width: 50%">
-              <img
-                class="casestudy1"
-                src="./PortfolioAssets/HomePage/Infocs2.png"
-                alt="Jobs for Interns"
-                style="width: 90%; margin-top: 5em"
-              />
-            </td>
-
-            <td>
-              <div class="casestudyheading">
-                <h1>
-                  <u>CVS Car Infotainment System</u>
-                  <br />
-                  <br />
-                  System for both touch and controls for the busy adult driver.
-                </h1>
-                <h2>Interaction Design - Spring 2022</h2>
-              </div>
+          <tr class="grow">
+            <td style="width: 100%">
+              <a href="./Practicum.html">
+                <div style="width: 50%; float: left">
+                  <img
+                    class="casestudy1"
+                    src="./PortfolioAssets/HomePage/Rosie.png"
+                    alt="Rosie"
+                    style="width: 90%"
+                  />
+                </div>
+                <div style="width: 50%; float: left">
+                  <div class="casestudyheading">
+                    <h5>
+                      <b>Rosie Supercomputer Dashboard Researcher</b>
+                    </h5>
+                    <h3>
+                      <b>
+                        Interactive dashboard for technical and non-technical
+                        students</b
+                      >
+                    </h3>
+                    <h3>UX Practicum - Fall 2022</h3>
+                  </div>
+                </div>
+                <span style="clear: left"></span>
+              </a>
             </td>
           </tr>
-
-          <tr>
-            <td>
-              <img
-                class="casestudy1"
-                src="./PortfolioAssets/HomePage/Jobscs1.png"
-                alt="Jobs for Interns"
-                style="width: 90%; margin-top: 5em"
-              />
+          <tr class="grow">
+            <td style="width: 100%">
+              <div style="height: 5em"></div>
+              <a href="./CarInfo.html" style="padding-top: 5em">
+                <div style="width: 50%; float: left">
+                  <img
+                    class="casestudy1"
+                    src="./PortfolioAssets/HomePage/Infocs2.png"
+                    alt="Jobs for Interns"
+                    style="width: 90%"
+                  />
+                </div>
+                <div style="width: 50%; float: left">
+                  <div class="casestudyheading">
+                    <h5>
+                      <b>CVS Car Infotainment System</b>
+                    </h5>
+                    <h3>
+                      <b
+                        >System for both touch and controls for the busy adult
+                        driver.</b
+                      >
+                    </h3>
+                    <h3>Interaction Design - Spring 2022</h3>
+                  </div>
+                </div>
+                <span style="clear: left"></span>
+              </a>
             </td>
+          </tr>
 
-            <td>
-              <div class="casestudyheading">
-                <h1>
-                  <u>Jobs for Interns</u>
-                  <br />
-                  <br />
-                  Its like Indeed but just for interns.
-                </h1>
-
-                <h2>Interface Design II - Winter 2022</h2>
-              </div>
+          <tr class="grow">
+            <td style="width: 100%">
+              <div style="height: 5em"></div>
+              <a href="./Jobs4Interns.html">
+                <div style="width: 50%; float: left">
+                  <img
+                    class="casestudy1"
+                    src="./PortfolioAssets/HomePage/Jobscs1.png"
+                    alt="Jobs for Interns"
+                    style="width: 90%"
+                  />
+                </div>
+                <div style="width: 50%; float: left">
+                  <div class="casestudyheading">
+                    <h5>
+                      <b>Jobs for Interns</b>
+                    </h5>
+                    <h3><b>Its like Indeed but just for interns.</b></h3>
+                    <h3>Interface Design II - Winter 2022</h3>
+                  </div>
+                </div>
+                <span style="clear: left"></span>
+              </a>
             </td>
           </tr>
         </table>
@@ -151,6 +189,14 @@
   <div class="footer">
     <div class="footertext" style="float: right">
       <h2>Sarah Cianciola</h2>
+      <img
+        src="./PortfolioAssets/About/FooterLinkedIn.png"
+        style="width: 20px; float: right; margin-left: 1em"
+      />
+      <img
+        src="./PortfolioAssets/About/FooterEmail.png"
+        style="width: 20px; float: right"
+      />
     </div>
   </div>
 </html>
