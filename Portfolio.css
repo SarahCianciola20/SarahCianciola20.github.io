@@ -400,3 +400,7 @@ div.desc {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
+
+.aboutmeimages {
+  width: 300px;
+}
