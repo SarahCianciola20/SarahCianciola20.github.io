@@ -404,3 +404,13 @@ div.desc {
 .aboutmeimages {
   width: 300px;
 }
+
+.active {
+  font-weight: bold;
+  color: black;
+}
+
+.nonactive {
+  font-weight: normal;
+  color: #9fa4b4;
+}

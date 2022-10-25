@@ -19,3 +19,26 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+const sections = document.querySelectorAll("section");
+const chapterLinks = document.querySelectorAll(".chapters div a");
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (scrollY >= sectionTop - sectionHeight / 3) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  chapterLinks.forEach((a) => {
+    a.classList.remove("active");
+    a.classList.add("nonactive");
+    if (a.classList.contains(current)) {
+      a.classList.add("active");
+      a.classList.remove("nonactive");
+      // console.log("activating " + current); // uncomment to show what is being activated :)
+    }
+  });
+});
