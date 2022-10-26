@@ -178,6 +178,12 @@ div {
   width: 100%;
 }
 
+.column3 {
+  min-width: 50%;
+  max-width: 50%;
+  padding: 10px;
+}
+
 .project-center {
   width: 100%;
 }
@@ -266,9 +272,8 @@ span.clear {
 #myBtn {
   font-family: "Courier New", Courier, monospace;
   display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  padding-bottom: 20px; /* Place the button at the bottom of the page */
+  padding-right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -278,6 +283,10 @@ span.clear {
   border-radius: 3px; /* Rounded corners */
   font-size: 20px; /* Increase font size */
   background-color: transparent; /* Add a dark-grey background on hover */
+  float: right;
+  bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 #myBtn:hover {
@@ -353,13 +362,13 @@ span.clear {
 .chapters {
   float: right;
   margin-right: 2em;
+  padding-top: 60px;
 }
 
 div.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-
   padding: 40px;
 }
 
@@ -412,5 +421,12 @@ div.desc {
 
 .nonactive {
   font-weight: normal;
-  color: #9fa4b4;
+  color: #000;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
