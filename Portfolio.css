@@ -21,7 +21,7 @@
   float: right;
   margin-top: 30px;
   margin-right: 100px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   color: #000;
   font-size: 25px;
 }
@@ -29,55 +29,55 @@
 /* Text */
 h1 {
   color: #000;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
 }
 h2 {
   color: #000;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   font-weight: normal;
 }
 h3 {
   color: #000;
-  font-family: "Avenir", sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-size: 15px;
   font-weight: normal;
 }
 h4 {
   color: #000;
-  font-family: "Avenir", sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-size: 15px;
 }
 
 h5 {
   color: #000;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
   font-weight: normal;
 }
 
 h6 {
   color: #000;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 15px;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Avenir Reg";
-  src: url("AvenirLTStd-Book.otf/avenir_ff");
+  font-family: 'Avenir Reg';
+  src: url('AvenirLTStd-Book.otf/avenir_ff');
 }
 div {
-  font-family: "Avenir", sans-serif;
+  font-family: 'Avenir', sans-serif;
 }
 
 @font-face {
-  font-family: "Avenir";
-  src: url("AvenirLTStd-Black.otf/avenir_ff");
+  font-family: 'Avenir';
+  src: url('AvenirLTStd-Black.otf/avenir_ff');
 }
 div {
-  font-family: "AvenirReg", sans-serif;
+  font-family: 'AvenirReg', sans-serif;
 }
 
 .navbar-brand {
@@ -108,7 +108,7 @@ div {
 }
 
 .Learnmore {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .footer {
@@ -152,7 +152,7 @@ div {
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -175,7 +175,7 @@ div {
 
 /* Clear floats after the columns */
 .row2:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -271,13 +271,13 @@ span.clear {
 
 /* Clear floats after the columns */
 .row3:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
 
 #myBtn {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   display: none; /* Hidden by default */
   padding-bottom: 20px; /* Place the button at the bottom of the page */
   padding-right: 30px; /* Place the button 30px from the right */
@@ -315,7 +315,7 @@ span.clear {
   font-size: 20px;
   border: none;
   background-color: #fff;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
 }
 
@@ -333,7 +333,7 @@ span.clear {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
 }
 
@@ -389,7 +389,7 @@ div.sticky {
 
 .grow2 {
   transition: all 0.2s ease-in-out;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .grow2:hover {
@@ -417,7 +417,7 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .aboutmeimages {
@@ -441,3 +441,103 @@ div.desc {
   width: 100%;
 }
 
+/* For modal content */
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg:hover {
+  opacity: 0.5;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  max-height: 90%;
+  /* max-width: 700px; */
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+/* End of modal content */
