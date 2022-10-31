@@ -133,6 +133,11 @@ div {
 
 .casestudyheading {
   margin-left: 50px;
+  text-decoration: none;
+}
+
+.casestudy1 {
+  float: center;
 }
 
 * {
@@ -148,6 +153,13 @@ div {
 .row {
   min-width: 100%;
   width: 100%;
+}
+
+.column3 {
+  margin-top: 0em;
+  min-width: 45%;
+  padding-right: 300px;
+  display: table;
 }
 
 /* Clear floats after the columns */
@@ -541,3 +553,7 @@ div.desc {
   }
 }
 /* End of modal content */
+
+a {
+  text-decoration: none;
+}
