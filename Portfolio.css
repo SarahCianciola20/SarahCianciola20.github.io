@@ -323,7 +323,7 @@ span.clear {
 .dropbtn {
   color: #000;
   padding-top: 40px;
-  padding-right: 10px;
+  /* padding-right: 10px; */
   font-size: 20px;
   border: none;
   background-color: #fff;
@@ -333,8 +333,8 @@ span.clear {
 
 .dropdown {
   position: relative;
-  display: inline-block;
-  padding-right: 10em;
+  /* display: inline-block; */
+  /* padding-right: 10em; */
   text-decoration: none;
 }
 
