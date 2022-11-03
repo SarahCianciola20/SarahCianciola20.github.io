@@ -261,18 +261,35 @@ span.clear {
   font-size: 32px;
 }
 
-.site-heading {
-  position: relative;
-  margin-top: 20px;
-  margin-left: 35%;
-  background-image: linear-gradient(180deg, white 45%, #d9e3ed 45%);
-  background-size: 100% 100%;
+.site-heading-bg {
   background-position: left;
-  text-align: left;
+  position: relative;
+  background-image: linear-gradient(180deg, white 50%, #d9e3ed 50%);
+  background-size: 100% 100%;
   padding-right: 0.5em;
   padding-left: 4.25em;
-  padding-bottom: 0.15em;
+  /* padding-bottom: 0.15em; */
+  margin-top: 20px;
+  margin-left: 35%;
+}
+
+.site-heading {
+  /* background-image: linear-gradient(180deg, white 45%, #d9e3ed 45%); */
+  text-align: left;
   font-size: 32px;
+  animation: typing 3.5s steps(40, end);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .column3 {
