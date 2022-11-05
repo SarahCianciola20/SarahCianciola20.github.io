@@ -227,9 +227,9 @@ div {
 
 .parent {
   /* overflow: hidden; */
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 55vw;
+  margin-left: 20vw;
+  margin-right: 35vw;
 }
 
 .sub-parent {
@@ -401,7 +401,8 @@ span.clear {
 
 .chapters {
   float: right;
-  margin-right: 2em;
+  margin-right: 2vw;
+  width: 15vw;
   padding-top: 60px;
 }
 
@@ -409,7 +410,6 @@ div.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding: 40px;
 }
 
 .contactform {
@@ -478,7 +478,7 @@ div.desc {
   transition: 0.3s;
 }
 
-.myImg,
+.myImg:hover,
 .myImgHeader:hover {
   opacity: 0.5;
 }
