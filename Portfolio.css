@@ -188,13 +188,14 @@ div {
 /* Clear floats after the columns */
 .row2:after {
   content: '';
-  display: table;
+  display: block;
   clear: both;
 }
 
 .row2 {
   min-width: 100%;
   width: 100%;
+  display: inline-block;
 }
 
 .column3 {
@@ -477,7 +478,8 @@ div.desc {
   transition: 0.3s;
 }
 
-.myImg:hover {
+.myImg,
+.myImgHeader:hover {
   opacity: 0.5;
 }
 

@@ -7,6 +7,7 @@ $(document).ready(function () {
 
   // Get the image and insert it inside the modal - use its "alt" text as a caption
   var images = document.querySelectorAll('.myImg')
+  var imageHeaders = document.querySelectorAll('.myImgHeader')
   var modalImg = document.getElementById('modal-img')
   var captionText = document.getElementById('caption')
 
@@ -42,7 +43,15 @@ $(document).ready(function () {
     img.onclick = function () {
       modal.style.display = 'block'
       modalImg.src = img.src
-      captionText.innerHTML = img.alt
+      // captionText.innerHTML = img.alt
+    }
+  })
+
+  imageHeaders.forEach((imgHeader) => {
+    imgHeader.onclick = function () {
+      modal.style.display = 'block'
+      modalImg.src = imgHeader.getAttribute('src')
+      // captionText.innerHTML = imgHeader.alt
     }
   })
 
