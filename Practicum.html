@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Document Properties -->
+  <!-- Document Properties Add context to the persona and the images-->
   <head>
     <link rel="stylesheet" href="Portfolio.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -166,18 +166,6 @@
             >Personas</a
           >
         </div>
-
-        <div class="grow2">
-          <a
-            class="DeskResearch nonactive"
-            href="#DeskResearch"
-            style="text-decoration: none"
-            >Desk Research</a
-          >
-        </div>
-
-        
-
         <div class="grow2">
           <a
             class="InterviewPlanning nonactive"
@@ -201,18 +189,11 @@
             class="InterviewDeliverable nonactive"
             href="#InterviewDeliverable"
             style="text-decoration: none"
-            >Interview Deliverable</a
+            >Interview Results</a
           >
         </div>
 
-        <div class="grow2">
-          <a
-            class="Solution nonactive"
-            href="#Solution"
-            style="text-decoration: none"
-            >Solution</a
-          >
-        </div>
+       
 
         <div class="grow2">
           <a
@@ -266,7 +247,6 @@
               <li>Survey Writing</li>
               <li>Data Analytics</li>
               <li>Data Visualization</li>
-              <li>Desk Research</li>
               <li>User Interviews</li>
             </h3>
           </div>
@@ -288,7 +268,7 @@
     <section id="ProjectOverview">
       <h2 class="accent-underline">Project Overview</h2>
       <h3>
-        On the campus of Milwaukee School of Engineering (MSOE), we have a supercomputer named Rosie located on the second floor of Diercks Hall. To the left of Rosie, there is a TV that projects a dashboard with statistics from Rosie. The current state of this dashboard is not interactive, no one knows if anyone looks at it, and half of the time it is not even on. What makes this problem unique is that the user base has a broad range of knowledge about supercomputers and this dashboard is in a public space where many students frequently walk by.
+        On the campus of Milwaukee School of Engineering (MSOE), we have a supercomputer named Rosie located in Diercks Hall. To the left of Rosie, there is a TV that projects a dashboard with statistics from Rosie. The current state of this dashboard is not interactive, no one knows if anyone looks at it, and half of the time it is not even on. What makes this problem unique is that the user base has a broad range of knowledge about supercomputers and this dashboard is in a public space where many students frequently walk by.
       <br>
       <br>
       The purpose of this dashboard is to be an interactive experience for technical users as well as non-technical users. The current plan for this dashboard is to utilize AI to allow users to talk, make gestures, and potentially use a keyboard to interact with the display. The display for the dashboard is intended to have a few different modes, the current modes include a Standard Dashboard, Photo Booth, Art and AI, Home Screen, Arcade, More, and Help. Throughout this experience, there will be a conversational AI component interacting with the user to allow for a more engaging experience. 
@@ -348,15 +328,15 @@
 
         <h4>Assumptions:</h4>
         <h3>
-          <li>
+          
             CS, SE, and CE students will understand the technical questions in the survey and technical components on the dashboard, with 3rd- and 4th-year students knowing the most
-          </li>
-          <li>
+          <br>
+          <br>
             CS, SE, and CE professors will understand the technical questions in the survey and technical components on the dashboard
-          </li>
-          <li>
+         <br>
+         <br>
             Other majors students and professors will know about Rosie and might know about the dashboard but will not understand the information
-          </li>
+          
         </h3>
       </section>
         <section id="SurveyWriting">
@@ -364,6 +344,7 @@
         <br />
         <br />
         <div style="text-align: center">
+          <h3><b>Brainstorming survey questions and flow of survey</b></h3>
           <img
             src="./PortfolioAssets/Supercomputer/Survey Questions/SurveyDev.png"
             style="width: 70%"
@@ -374,7 +355,7 @@
         <br />
         <section id="AnalyzeResults">
         <h2 class="accent-underline">Analyze Results</h2>
-        <h3><b>Creating Themes from short answers</b></h3>
+        <h3><b>Creating themes from short answers</b></h3>
         <table>
           <tr>
             <td>
@@ -526,15 +507,7 @@
           />
         </div>
       </section>
-      <section id="DeskResearch">
-        <h2 class="accent-underline" id="DeskResearch">
-          Desk Research
-        </h2>
-        <h3>In the process of doing for the project</h3>
-        <br />
-       
-        <br />
-      </section>
+      
 
         <section id="InterviewPlanning">
         <h2 class="accent-underline" id="InterviewPlanning">
@@ -551,41 +524,63 @@
         <h2 class="accent-underline" id="Interviews">
           Interviews
         </h2>
+        <h3><b>Background: </b> <br>30 min in person interviews, done with me moderating, and 1-2 members of the SD team present to help answer questions and work the prototype. 
+          <br><br>The prototypes tested were on a laptop instead of the tv screen with one prototype being the Figma file with the home, arcade, emotion/photo booth mocked up which was accompanied by the SD medium/low fidelity emotion recognition and photobooth feature on a separate computer.
+          </h3>
+        <h3><b>Purpose: </b>Show students early concepts of the dashboard</h3>
+        <h3><b>Goals: </b>To understand how students would interact with the dashboard in particular with the hand and voice navigation, additionally to gather insights for other features that are not fully developed yet like the arcade, tour, leaderboard, and general UI. </h3>
         
+        <h3><b>Participants: 
+          </b></h3>
+          <h3> 2 Other Majors - 1st Years (IE & BME)<br>
+            2 UX Majors - 1st & 3rd Years <br>
+            3 CS Majors -  1st, 2nd, & 3rd Years<br></h3>
         <br />
        
-        <br />
       </section>
 
         <section id="InterviewDeliverable">
         <h2 class="accent-underline" id="Interview Deliverable">
-          Interview Deliverable
+          Interview Results
         </h2>
+        <h3><b>Top Findings</b></h3>
+        <h3><li>Confusion with hand navigation - all participants asked how to use it or struggled immensely </li>
+          <li>Voice and text - mixed reviews, but lots of concerns with the amount of noise people would generate if interacting with voice</li>
+         <li>Many students do not know what voice assistants are (but they understand Siri, Google, etc)</li> 
+         <li>6/7 students would like to start the interaction with Red </li> 
+          <li>Students really liked the emotion/photo booth and thought it would be fun for prospective students</li>
+          <li>Students seemed really excited about the arcade mode potential</li>
+          <li>Students seemed really motivated to learn about Roise through the tour mode</li>
+          </h3>
         
         <br />
-       
+        <h3><b>Key Quotes</b></h3>
+        <h3>
+          "I would be scared using it [the dashboard] the first or second time maybe have a pop up telling me how to use the dashboard." (UX student) <br><br>
+          "Would like a way to show how to start or touch the dashboard to activate it. Not everyone would know that from a first glance at the dashboard, because people might think it is just a tv." (CS student)<br><br>
+         "I did not expect this [emotion detection] because I did not know you could do this. (UX student)<br><br>
+          "I saw it [emotion detection explanation paragraph] but I did not read it, the UI made sense without reading the paragraph." (CS student)<br><br>
+        </h3>
+        
+          <a href="https://docs.google.com/document/d/1g-JGuGQJUtep3UJk61SeyckVezwxUXwco32lWPUxirA/edit?usp=sharing" target="_blank"><h3><b><u>View Full Report</u></b></h3></a>
         <br />
       </section>
 
       </div>
-      <section id="Solution">
-      <h2 class="accent-underline" id="Solution">Solution</h2>
-      
-      <br />
-    </section>
+     
       <section id="Challenges">
       <h2 class="accent-underline" id="Challenges">Challenges</h2>
       <h3>
-        <li>Recruiting enough non-CS, SE, and CE students for the survey and recriting in general for the interviews</li>
-        <li>Having only 30 minutes to interview students because of time contraints and schedules</li>
+        Through this project, one of the challenges I faced was communication with the team. There was a lack of communication early on, which was a little awkward. But this is an example of how I could have used more confidence and communicated with the team more, and how I could have started to communicate with the team better from the beginning. I think I improved on this later in the term, especially when I was working on the user interviews. This experience will help me be better prepared for a career in industry because I need to be more confident, especially when I am an expert on a topic, like in this instance. Furthermore, having the ability to communicate effectively with technical-minded teams will be a skill that is important for the future. 
       </h3>
     </section>
       <section id="Impact">
       <h2 class="accent-underline" id="Impact">Impact</h2>
       <h3>
-        
-        <li>The CS Senior Design Team is able to take my insights to inform their design for their dashboard</li>
-        <li>The data from the survey and interviews were given to the MSOE Computer Science Program Director to spark ideas for future class projects for the Computer Science Program</li>
+        The CS Senior Design Team is able to take my insights to inform their design for their dashboard which will be displayed on campus next year and a destination for perspective students to visit on tours.
+        <br>
+        <br>
+        The data from the survey and interviews were given to the MSOE Computer Science Program Director to spark ideas for future class projects for the Computer Science Program, which will impact many CS students in the future.
       </h3>
     </section>
       <section id="LessonsLearned">
@@ -593,15 +588,15 @@
         Lessons Learned
       </h2>
       <h3>
-        <li>
-          The importance of testing survey questions because you only have one chance to ask your questions and you can not follow-up
-        </li>
-        <li>
-          How to collaborate with technical-minded people like CS students 
-        </li>
-        <li>
-          How to run my own research project with a real client
-        </li>
+        One skill I learned was how to become an expert in a topic, which I practiced by sharing my research confidently to other students and Professors. Although I did not completely perfect the skill of confidence, I did get ample opportunities to work on this skill when presenting my research findings.
+        <br>
+        <br>
+        A soft skill I learned through this process was how to communicate and work with a technical-minded team, like the CS team I worked with. In the first part of the term, I felt like the communication with the team was a little disjointed, but after I gave them the survey results, I felt like the communication opened up and I started to work with the team more. 
+        <br>
+        <br>
+        A tool I learned in this project was Qualtrics. The main component of Qualtrics that I learned was how to make skip logic for the survey. Another component I learned about Qualtrics was how to analyze the data using the filter tab to start to compare the different user groups.
+       
+       
       </h3>
     </section>
     <div style="height: 5em;"></div>
