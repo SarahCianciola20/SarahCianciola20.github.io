@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Document Properties Add context to the persona and the images-->
+  <head>
+    <link rel="stylesheet" href="Portfolio.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Portfolio.js" defer></script>
+    <title>SarahCianciola.com</title>
+  </head>
+
+  <div>
+    <a
+      href="./index.html"
+      class="logo"
+      style="width: 20%; float: left; height: 40px; max-height: 40px;"
+    >
+      <img
+        src="./PortfolioAssets/Brand/Logo.png"
+        alt="Home"
+        style="width: 40%;"
+      />
+    </a>
+  </div>
+  <div style="height: 40px; width: 55%; float: left;"></div>
+  <div class="dropdown" style="width: 10%; float: left;">
+    <a href="Projects.html" style="color: #000; text-decoration: none;">
+      <button
+        class="dropbtn"
+        style="width: 100%; text-align: left; margin-left: 10px;"
+      >
+        Projects
+      </button>
+    </a>
+    <div class="dropdown-content">
+      <a href="./Practicum.html">Supercomputer Researcher</a>
+      <a href="./CarInfo.html">CVS Infotainment System</a>
+      <a href="./Jobs4Interns.html">Jobs 4 Interns</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" style="width: 15%; float: left;">
+      <a
+        href="./About.html"
+        style="color: #000; text-decoration: none; width: 100%;"
+      >
+        About
+      </a>
+    </button>
+  </div>
+  <span style="clear: both;"></span>
+  <br />
+  <br />
+  <div style="min-height: 100vh; width: 100%;">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="parent">
+      <img
+        src="./PortfolioAssets/CB/CB Logo.png"
+       
+        style="width: 60%; margin-top: 2em;"
+        class="center"
+      />
+    </div>
+    <br />
+    <br />
+    <br />
+    
+
+    <h2 class="project-title">Crunchbase Personalized Dashboard</h2>
+    <br />
+    <br />
+    <br />
+    <br />
+  </div>
+  <body>
+    
+
+    <div class="sticky">
+      <!-- This is the sidebar -->
+      <div class="chapters">
+        <div class="grow2">
+          <a
+            href="#Introduction"
+            class="Introduction nonactive"
+            style="text-decoration: none"
+            >Introduction</a
+          >
+        </div>
+
+        <div class="grow2">
+          <!-- TODO: For every one of these, add classes href value (without #) and "nonactive" -->
+          <a
+            class="ProjectOverview nonactive"
+            href="#ProjectOverview"
+            style="text-decoration: none"
+            >Project Overview</a
+          >
+        </div>
+
+        <div class="grow2">
+          <a
+            class="Process nonactive"
+            href="#Process"
+            style="text-decoration: none"
+            >Process</a
+          >
+        </div>
+
+        <div class="grow2">
+          <a
+            class="Planning nonactive"
+            href="#Planning"
+            style="text-decoration: none"
+            >Survey Planning</a
+          >
+        </div>
+
+        <div class="grow2">
+          <a
+            class="SurveyWriting nonactive"
+            href="#SurveyWriting"
+            style="text-decoration: none"
+            >Survey Writing</a
+          >
+        </div>
+
+        <div class="grow2">
+          <a
+            class="AnalyzeResults nonactive"
+            href="#AnalyzeResults"
+            style="text-decoration: none"
+            >Analyze Results</a
+          >
+        </div>
+
+        
+
+        <div class="grow2">
+          <a
+            class="Sketches nonactive"
+            href="#Sketches"
+            style="text-decoration: none"
+            >Sketches</a
+          >
+        </div>
+
+        <div class="grow2">
+          <a
+            class="Infographic nonactive"
+            href="#Infographic"
+            style="text-decoration: none"
+            >Infographics</a
+          >
+        </div>
+
+        <div class="grow2">
+          <a
+            class="Personas nonactive"
+            href="#Personas"
+            style="text-decoration: none"
+            >Personas</a
+          >
+        </div>
+        <div class="grow2">
+          <a
+            class="InterviewPlanning nonactive"
+            href="#InterviewPlanning"
+            style="text-decoration: none"
+            >Interview Planning</a
+          >
+        </div>
+
+        <div class="grow2">
+          <a
+            class="Interviews nonactive"
+            href="#Interviews"
+            style="text-decoration: none"
+            >Interviews</a
+          >
+        </div>
+
+        <div class="grow2">
+          <a
+            class="InterviewDeliverable nonactive"
+            href="#InterviewDeliverable"
+            style="text-decoration: none"
+            >Interview Results</a
+          >
+        </div>
+
+       
+
+        <div class="grow2">
+          <a
+            class="Challenges nonactive"
+            href="#Challenges"
+            style="text-decoration: none"
+            >Challenges</a
+          >
+        </div>
+
+        <div class="grow2">
+          <a
+            class="Impact nonactive"
+            href="#Impact"
+            style="text-decoration: none"
+            >Impact</a
+          >
+        </div>
+
+        <div class="grow2">
+          <a
+            class="LessonsLearned nonactive"
+            href="#LessonsLearned"
+            style="text-decoration: none"
+            >Lessons Learned</a
+          >
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="parent">
+      <div class="project-center">
+        <section id="Introduction">
+        <div class="row2">
+          <div class="column2">
+            <h2 class="accent-underline">Challenge</h2>
+            <h3>
+              Utilizing AI to craft user-centric data 
+visualizations that dynamically adapt 
+to users unique characteristics and 
+preferences as they engage with 
+Crunchbase.
+
+            </h3>
+          </div>
+          <div class="column2">
+            <h2 class="accent-underline">Timeline</h2>
+            <h3>August 2023 - December 2023</h3>
+          </div>
+          <div class="column2">
+            <h2 class="accent-underline">Skills</h2>
+            <h3>
+              <li>Survey Writing</li>
+              <li>Data Analytics</li>
+              <li>User Interviews</li>
+              <li>Task Analysis</li>
+              <li>Competive Analysis</li>
+              <li>Data Visualization</li>
+              <li>User Testing</li>
+             
+            </h3>
+          </div>
+          <div class="column2">
+            <h2 class="accent-underline">Team</h2>
+            <h3>
+              <li>3 Researchers</li>
+              <li>2 Designers</li>
+              <li>I contributed as a researcher</li>
+              <br />
+              
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ProjectOverview">
+      <h2 class="accent-underline">Project Overview</h2>
+      <h3>
+        Crunchbase is a company that offers comprehensive data on both private and publicly
+        traded companies. By its role as a data-centric platform and smart prospecting software fueled by real-time company information, Crunchbase serves as a valuable tool for salespeople, CEOs, venture capitalists, and founders seeking to identify and finalize deals, secure investments, and conduct market research.      <br>
+      <br>
+      My team and I have been tasked with understanding start up founders goals, needs, and pain points with the current site to ultimately create data visualizations to better present the large quantities of data.       <br>
+      <br>
+      </h3>
+      <br>
+      <br>
+     
+    </section>
+    <section id="Process">
+      <h2 class="accent-underline">Process</h2>
+      <br />
+      <br />
+     
+      <img
+        src="./PortfolioAssets/CB/Process.png"
+        style="width: 80%"
+        class="center"
+      />
+      <br />
+    </section>
+      <div class="sub-parent">
+
+        <section id="Planning">
+        
+
+        <h2 class="accent-underline">Understanding the Problem</h2>
+        <br />
+
+        <h3><b>Goal:</b></h3>
+        <h3>
+          Crunchbase is focusing on customization to ensure users can access tailored data efficiently though data visualization to make complex information understandable and empower decision-makers. 
+        </h3>
+       
+        <h3><b>Problem:</b></h3>
+        <h3>Crunchbase acknowledges it has  not fully leveraged emerging technologies to improve its search functions and data visualization despite its extensive database. To address this, the company is focusing on creating tools to enhance the visualization experience for their current users. This effort aims to make their data more user-friendly and easily accessible, with the goal of enabling users to extract maximum value from their platform. Ultimately, Crunchbase aims to enhance its competitiveness in the market of business search engines.</h3>
+
+       
+        <img
+        src="./PortfolioAssets/CB/CBToday.png"
+        style="width: 80%"
+        class="center"
+      />
+      <br>
+      <br>
+        <h3><b>Problem Statement:</b></h3>
+        <h3>How might we help Crunchbase incorporate accessible and personalizable data visualizations in the user interface to boost start-up founders use efficiency on this website?</h3>
+
+        <h3><b>Target Users:</b></h3>
+        <h3><li><b>Start-up Founders</b></li>
+              <li>Market Researchers</li>
+              <li>Sales Professionals</li>
+              <li>Investors</li>
+
+              <h3><b>Problem Significance:</b></h3>
+        <h3><li>New research area by focusing on start-up founders</li>
+              <li>There is little to no data visualizations on the platform today</li>
+              <li>The users need an efficient way for data-driven decision-making regardless of their role
+              </li></h3>
+              
+
+      </section>
+        <section id="SurveyWriting">
+        <h2 class="accent-underline">Research Questions</h2>
+        <br />
+       
+        <h3><b>How can we create user-centric data visualizations for users' characteristics and needs?
+        </b></h3>
+        <h3>Sub-Research Questions:</h3>
+        <h3><li>What are the pain points of target users?</li>
+              <li>How can we improve the current usability problems of the website to make it more intuitive to users?</li>
+              <li>What are potential improvements for the user interface, accessibility, and personalization? </li></h3>
+      </section>
+        <br />
+        <br />
+        <section id="AnalyzeResults">
+        <h2 class="accent-underline">Survey</h2>
+        <h3><b>Goal:</b></h3>
+        <h3>Understand start-up founders' personal background and role at their company and their general experience with Crunchbase and competitors. </h3>
+        <h3><b>Example Questions:</b></h3>
+        <h3>
+          <li>What does your usual workday entail? (Select all that apply)</li>
+              <li>What are your top 3 time-consuming tasks to complete your job responsibilities? (Select all that apply </li>
+              <li>What features do you use the most on Crunchbase? (Select all that apply)</li>
+              <li>For what reason(s) do you choose not to use Crunchbase? (Select all that apply) </li>
+        </h3>
+        
+        <h3><b>Analysis and Findings:</b></h3>
+        <h3>
+          <li>n=21 after cleaning n=12 (removed not complete responses and responses from users who are not start-up founders)</li>
+              <li>Use platform for networking, competitive analysis, and to find investors </li>
+              <li>Use other tools like LinkedIn to help with their tasks on Crunchbase</li>
+              <li>These findings validated the need for data visualizations and gave us general information about our users</li>
+        </h3>
+        <img
+        src="./PortfolioAssets/CB/SurveySpreadsheet.png"
+        style="width: 80%"
+        class="center"
+      />
+
+      </section>
+      <br>
+      <br>
+        <section id="Sketches">
+        <h2 class="accent-underline" id="Sketches">
+          User Interviews
+        </h2>
+        
+        <h3><b>Goal:</b></h3>
+        <h3>To dive deep into growth opportunities for Crunchbase by understanding what being a start-up founder entails and how these users use or not use Crunchbase.</h3>
+        <h3>
+          <b>Context:</b></h3>
+         <h3>Interview 4 startup founders to understand their job, their company, and how Crunchbase fits or does not fit into their role. Each interview was between 15-30 over Zoom and the transcripts were analyzed using Dedoose.
+        </h3> 
+        <h3>
+        <b>Examples of Questions:</b></h3>
+       <h3> <li>What kinds of problems do you experience when completing your daily tasks as a startup founder?</li>
+        <li>Could you share your screen and show us and explain your process as you go through an example of a day-to-day task you perform?</li>
+        <li>What would make your workflow easier overall?</li></h3>
+        <h3><b>Analysis:</b></h3>
+        <h3><li>n=4 participants</li>
+        <li>Transcripts where analyzed on Dedoose by using open coding and axial codes to ultimately find themes of insights</li></h3>
+          <h3><b>Findings:</b></h3>
+          <h3>
+            <li>Users need quick and scannable information </li>
+              <li>Ability to make comparisons between companies and industries</li>
+              <li>Connect with others safely</li>
+              <li>These findings validated the need for data visualizations and gave us new insights how startup founders interact with stakeholders</li>
+          </h3>
+
+          <img
+        src="./PortfolioAssets/CB/DedooseCodes.png"
+        style="width: 80%"
+        class="center"
+      />
+        <br>
+        <br>
+      </section>
+        <section id="Infographic">
+        <h2 class="accent-underline" id="Infographic">
+          Competitive Analysis
+        </h2>
+        <br />
+        
+
+        <h3><b>Goal:</b></h3>
+        <h3>To see where Crunchbase fits in relation to their competitors and what we can learn from the competitors.</h3>
+        <h3>
+          <b>Context:</b></h3>
+         <h3>Conducted the analysis on Crunchbase, Pitchbook, CB Insights, Apollo.io, and LinkedIn. Each platform was ranked on identifying potential investors and how to understand the market and competitors. There was a collection of screenshots and text to document the process and then we pulled the insights and ranked each platform using green, yellow, red dots to highlight their performance. (I lead the LinkedIn Analysis)
+        </h3> 
+        
+        <h3><b>Analysis:</b></h3>
+        <h3>I personally lead the analysis for LinkedIn were I reasearched how LinkedIn stood on these five categories: searching for investors, evaluating investors, reaching out to investors, search for competitors, and viewing of market trend.</h3>
+        <img
+        src="./PortfolioAssets/CB/CompetitiveAnalysisFigma.png"
+        style="width: 80%"
+        class="center"
+      />
+
+          <h3><b>Findings:</b></h3>
+          <h3>
+            <li>Crunchbase is good for evaluating investors </li>
+              <li>Improve search experience</li>
+              <li>Use AI to help find investors</li>
+              <li>Create a new feature to see market trends</li>
+          </h3>
+          <img
+        src="./PortfolioAssets/CB/CompetitiveAnalysisFindings.png"
+        style="width: 80%"
+        class="center"
+      />
+
+
+      </section>
+        <section id="Personas">
+        <h2 class="accent-underline" id="Personas">Hierarchical Task Analysis:</h2>
+        <h3><b>Goal:</b></h3>
+        <h3>Ro understand the step-by-step processes start-up founders do in their daily responsibilities to find pain points and evaluate the user experience.</h3>
+        <h3>
+          <b>Context:</b></h3>
+         <h3>Analyzed 5 different tasks by completing a site walk-through and noting the steps in detail to make hierarchical task analysis tree diagrams for each task.
+        </h3> 
+        
+        <h3><b>Analysis:</b></h3>
+        <h3>I created the tree diagram for conducting market research by competitors while using Crunchbase.</h3>
+        <img
+        src="./PortfolioAssets/CB/TaskDiagram.png"
+        style="width: 80%"
+        class="center"
+      />
+
+          <h3><b>Findings:</b></h3>
+          <h3>
+            To understand the findings we filled out this chart for the diagram we created to highlight the important aspects of the findings.
+          </h3>
+          <img
+        src="./PortfolioAssets/CB/TaskFindings.png"
+        style="width: 80%"
+        class="center"
+      />
+
+      </section>
+      
+
+        <section id="InterviewPlanning">
+        <h2 class="accent-underline" id="InterviewPlanning">
+          Persona
+        </h2>
+        <br />
+        <br />
+        
+        <img
+          src="./PortfolioAssets/CB/Persona.png"
+          style="width: 80%"
+        />
+      </section>
+        <section id="Interviews">
+        <h2 class="accent-underline" id="Interviews">
+          Journey Maps
+        </h2>
+        <br />
+        <br />
+        <img
+          src="./PortfolioAssets/CB/Map1.png"
+          style="width: 80%"
+        />
+        <br />
+        <br />
+        <br />
+        <br />
+        <img
+          src="./PortfolioAssets/CB/Map2.png"
+          style="width: 80%"
+        />
+       
+      </section>
+
+        <section id="InterviewDeliverable">
+        <h2 class="accent-underline" id="Interview Deliverable">
+          Ideation
+        </h2>
+        <h3><b>Rapid Prototyping</b></h3>
+        <table>
+          <tr>
+            <td>
+              <img
+              src="./PortfolioAssets/CB/Sketches1.png"
+              style="width: 100%"
+            />
+            </td>
+            <td>
+              <img
+              src="./PortfolioAssets/CB/Sketches2.png"
+              style="width: 100%"
+            />
+            </td>
+            <td>
+              <img
+              src="./PortfolioAssets/CB/Working.png"
+              style="width: 100%"
+            />
+            </td>
+            <td>
+              <img
+              src="./PortfolioAssets/CB/SketchesWB.png"
+              style="width: 75%"
+            />
+            </td>
+          </tr>
+        </table>
+        <br>
+        <h3><b>Concepts</b></h3>
+        <table>
+          
+          <tr>
+            <td>
+              
+        <img
+              src="./PortfolioAssets/CB/COnboarding.png"
+              style="width: 100%"
+            />
+            </td>
+            <td>
+              
+       <img
+              src="./PortfolioAssets/CB/CHome.png"
+              style="width: 75%; margin-left: 3em;"
+              
+            />
+            </td>
+            <td>
+              
+              <img
+                     src="./PortfolioAssets/CB/CCompare.png"
+                     style="width: 100%"
+                   />
+            </td>
+            
+          </tr>
+          <tr>
+            <td><h3>Onboarding</h3></td>
+            <td><h3 style="margin-left:5em;">Homepage</h3></td>
+            <td><h3>Company Compare</h3></td>
+          </tr>
+        </table>
+
+      </section>
+
+     
+     
+      <section id="Challenges">
+      <h2 class="accent-underline" id="Challenges">Prototyping</h2>
+      <h3><b>
+        Low Fidelity Prototyping
+      </b>
+      </h3>
+      <h3>The prototypes shown are the ones I personally created</h3>
+      <h3>Saved Searches</h3>
+      <img
+                     src="./PortfolioAssets/CB/LFSavedSearches.png"
+                     style="width: 100%"
+                   />
+                   <h3>Favorites</h3>
+      <img
+                     src="./PortfolioAssets/CB/LFSavedLists.png"
+                     style="width: 100%"
+                   />
+
+                   <h3>History</h3>
+      <img
+                     src="./PortfolioAssets/CB/LFHistory.png"
+                     style="width: 100%"
+                   />
+    </section>
+
+    <h3>To be continued</h3>
+
+
+      <!-- <section id="Impact">
+      <h2 class="accent-underline" id="Impact">Impact</h2>
+      <h3>
+        The CS Senior Design Team is able to take my insights to inform their design for their dashboard which will be displayed on campus next year and a destination for perspective students to visit on tours.
+        <br>
+        <br>
+        The data from the survey and interviews were given to the MSOE Computer Science Program Director to spark ideas for future class projects for the Computer Science Program, which will impact many CS students in the future.
+      </h3>
+    </section>
+      <section id="LessonsLearned">
+      <h2 class="accent-underline" id="Lessons Learned">
+        Lessons Learned
+      </h2>
+      <h3>
+        One skill I learned was how to become an expert in a topic, which I practiced by sharing my research confidently to other students and Professors. Although I did not completely perfect the skill of confidence, I did get ample opportunities to work on this skill when presenting my research findings.
+        <br>
+        <br>
+        A soft skill I learned through this process was how to communicate and work with a technical-minded team, like the CS team I worked with. In the first part of the term, I felt like the communication with the team was a little disjointed, but after I gave them the survey results, I felt like the communication opened up and I started to work with the team more. 
+        <br>
+        <br>
+        A tool I learned in this project was Qualtrics. The main component of Qualtrics that I learned was how to make skip logic for the survey. Another component I learned about Qualtrics was how to analyze the data using the filter tab to start to compare the different user groups.
+       
+       
+      </h3>
+    </section> -->
+    <div style="height: 5em;"></div>
+    <br />
+    <br />
+    <h2 class="project-title">More Projects</h2>
+    <br />
+    <br />
+    <br />
+    <div class="grow">
+      <a href="./CarInfo.html" style="text-align: center;">
+        <img
+          class="casestudy1; center"
+          src="./PortfolioAssets/HomePage/Infocs2.png"
+          alt="Jobs for Interns"
+          style="width: 50%;"
+        />
+
+        <div class="casestudyheading">
+          <h1 style="text-decoration: none;">CVS Car Infotainment System</h1>
+          <h3>
+            System for both touch and controls for the busy adult driver.
+          </h3>
+        </div>
+      </a>
+    </div>
+    <br />
+    <div class="grow" style="margin-left: 80%; width: 20%;">
+      <a  href="./Projects.html">
+        <h1 style="text-align: center;"><u> More Projects</u></h1>
+      </a>
+    </div>
+    </div>
+    
+  </body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  
+
+
+  <div class="footer">
+    <div class="footertext" style="float: right">
+      <h2>Sarah Cianciola</h2>
+
+      <a href="https://www.linkedin.com/in/sarah-cianciola-84884720a/" target="_blank">
+        <img
+          src="./PortfolioAssets/About/FooterLinkedIn.png"
+          style="width: 20px; float: right; margin-left: 1em"
+        />
+      </a>
+      <a href="./email.html"
+        ><img
+          src="./PortfolioAssets/About/FooterEmail.png"
+          style="width: 20px; float: right"
+        />
+      </a>
+    </div>
+  </div>
+  <!-- Modal -->
+  <!-- TODO for another page: -->
+  <!-- 1) Paste below block on page -->
+  <!-- 2) Add class myImg to any image you want effect to be applied to -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <div id="caption"></div>
+  </div>
+</html>
